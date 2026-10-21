@@ -1,0 +1,31 @@
+name: leanhtam_2380601976
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+
+  # Thư viện mạng kết nối API
+  http: ^1.2.0
+
+  # Tạm thời comment 2 package bị xung đột Kotlin Compiler với Gradle:
+  # mobile_scanner: ^5.1.0
+  # device_info_plus: ^10.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # assets:
+  #   - images/a_dot_burr.jpeg
